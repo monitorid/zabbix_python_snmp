@@ -1,1 +1,29 @@
 # zabbix_python_snmp
+
+
+```
+{
+    "zabbix": {
+		"url": "http://127.0.0.1:8080",
+        "api_token": "8091bd90f0e0fbbf269b58c8672e74d5daad7486984bda7f66bdf4fa3d52f582"
+	},
+	"pylld":{
+		"filter_fs_names": "^(/dev|/sys|/run|/proc|.+/shm$)",
+		"posfix": "PyLLD",
+		"hostgrp": "PyLLD Python Script"
+    },
+	"hosts":[ 
+		{
+			"type": "dns",
+			"ip": "127.0.0.1",
+			"hostname": "dns-server.local",
+			"port": "161",
+			"protocol": {
+				"version": 3,
+				"auth_key": "temp_password",
+				"priv_key": "temp_password"
+			}
+		}
+	]
+}
+```
