@@ -1,5 +1,6 @@
 # zabbix_python_snmp
-**check_dns_server.py** Script to check the availability of server DNS
+
+**check_dns_server.py** Script to check the availability of server DNS<br/>
 **disk_snmp.py** Script for polling Linux Server by SNMP and adding appropriate disks metrics to the Zabbix server
 
 ### Requirements
